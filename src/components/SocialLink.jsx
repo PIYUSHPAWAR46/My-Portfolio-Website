@@ -33,14 +33,14 @@ const SocialLink = () => {
   child:(
     <>Resume <MdOutlineContactPage size={30}/></>
   ),
-  href:"/PIYUSH PAWAR_CV.pdf",
+  href:"/PIYUSH_PAWAR_CV.pdf",
   style:"rounded-br-md",
   download:true,
  },
 ]
 
   return (
-    <div className='hidden lg:flex flex-col top-[35%] fixed left-0'>
+    <div className=' lg:flex flex-col top-[35%] fixed left-0'>
       <ul>
         {links.map(({id,link,child,href,style, download})=>(
           
